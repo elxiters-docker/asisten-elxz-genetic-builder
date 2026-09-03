@@ -1,0 +1,27 @@
+{
+  "name": "asisten-elxz-build-v5",
+  "version": "5.0.0",
+  "description": "Telegram Bot APK Builder via GitHub Actions by Elxz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "telegram-bot",
+    "apk-builder",
+    "web2apk",
+    "flutter-build",
+    "github-actions",
+    "elxz"
+  ],
+  "author": "Elxz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "form-data": "^4.0.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
